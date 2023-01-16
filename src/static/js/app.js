@@ -1,6 +1,7 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+    　　<p className="text-center">"ToDo App by Masahiro Hamada</p>
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
@@ -53,7 +54,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above!</p>
+                <p className="text-center">No items Yet! Add one above!</p>
             )}
             {items.map(item => (
                 <ItemDisplay
