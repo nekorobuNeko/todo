@@ -1,7 +1,7 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
-        <p className=“text-center”>ToDo App By Masahiro Hamada</p>
+        document.write("ToDo App By Masahiro Hamada");
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
