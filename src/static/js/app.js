@@ -2,7 +2,6 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <p className="text-center">"ToDo App by Masahiro Hamada</p>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
