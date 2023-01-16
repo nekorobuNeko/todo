@@ -1,8 +1,8 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+        <p className=“text-center”>“ToDo App By Masahiro Hamada</p>
         <Container>
-            <p className=“text-center”>“ToDo App By Masahiro Hamada</p>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
